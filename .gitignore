@@ -1,0 +1,74 @@
+# --- Secrets / local config -------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# --- OS cruft ---------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors / IDEs ---------------------------------------------------------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs / temp ------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# --- Node -------------------------------------------------------------------
+node_modules/
+dist/
+build/
+out/
+coverage/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+build/
+develop-eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- JVM --------------------------------------------------------------------
+target/
+*.class
+.gradle/
+
+# --- Go / Rust --------------------------------------------------------------
+*.exe
+*.test
+*.out
+/target/
+
+# --- Claude Code ------------------------------------------------------------
+.claude/settings.local.json
